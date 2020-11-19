@@ -1,0 +1,200 @@
+body {
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#F78888;
+    background-color: #ECECEC;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 10pt;
+}
+
+.labels-top {
+    font-size: 15pt;
+    text-decoration: none;
+    padding-left: 4em;
+    padding-right: 4em;
+    color: #5DA2D5;
+}
+
+#on-page {
+    color: darkslategray;
+}
+
+.page-title {
+    display: block;
+    text-align: center;
+}
+
+h1{
+    font-size: 80px;
+    color: #F78888;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.background-image{ 
+    background-image: url("../images/alice-mountain-jpeg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.intro-hello{
+    margin-top: 10px;
+    margin-top: 10px;
+    font-size: 30pt;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 80%;
+    /*need to add line spacing here to make it look better*/
+}
+.intro-para{
+    font-size: 20pt;
+    padding-left: 20px;
+    width: 60%;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.intro-northcoder{
+    font-size: 19pt;
+    padding-left: 20px;
+    width: 60%;
+    line-height: 1.5;
+}
+.intro-footer{
+    margin-left: 80px;
+    margin-right: 80px;
+    display: block;
+    text-align: center;
+}
+
+p{
+    font-size: 15pt;
+    margin-bottom: 20pt;
+}
+
+
+form{
+    margin-top: 50px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form-control{
+    display: block;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background: transparent;
+    border:2pt solid rgb(61, 131, 131);
+    font-size: 15pt;
+}
+input{
+    height: 25px;
+    border-radius: 10px;
+}
+textarea{
+    border-radius: 10px;
+}
+form .submit{
+background: rgb(242, 170, 144);
+border-color: transparent;
+color: darkslategray;
+font-size: 20px;
+font-weight: bold;
+height: 50px;
+margin-top: 20px;
+width: 500px;
+}
+
+.main-content{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+.photos-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.grid-photo{
+    background: #ddd;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+}
+.flip-card-1 {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+}
+.flip-card-inner-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.flip-card-1:hover .flip-card-inner-1 {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front-1, .flip-card-back-1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .flip-card-back-1 {
+    background-color:  rgb(242, 170, 144);
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-card-2 {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+}
+.flip-card-inner-2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.flip-card-2:hover .flip-card-inner-2 {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-card-front-2, .flip-card-back-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  .flip-card-back-2 {
+    background-color:  rgb(121, 217, 238);
+    color: white;
+    transform: rotateX(180deg);
+  }
