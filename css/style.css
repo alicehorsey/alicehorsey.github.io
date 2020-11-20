@@ -84,6 +84,11 @@ h1{
     text-align: center;
 }
 
+.contact-link{
+    text-decoration: none;
+    color: #05386B;
+}
+
 p{
     font-size: 15pt;
     margin-bottom: 20pt;
