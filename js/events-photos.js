@@ -14,13 +14,11 @@ function setInitialColour() {
     let cards = document.getElementsByClassName("flip-card-back");
     for (let i = 0; i < cards.length; i++) {
         cards[i].style.backgroundColor = backgroundColors[randomNum()]
-        // cards[i].style.color = backgroundColors[randomNum()]
     }
 }
 
 function changeColour(card) {
     setTimeout(() => {
         card.style.backgroundColor = backgroundColors[randomNum()]
-        // card.style.color = backgroundColors[randomNum()]
     }, 500)
 }
