@@ -4,7 +4,8 @@ body {
     height: 100%;
     /* min-height: 100%; */
     position: relative;
-    background-color: #F9FAF4;
+    /* background-color: #F9FAF4; */
+    background-image: url("../images/background.jpg");
 }
 
 a {
@@ -13,16 +14,18 @@ a {
 }
 
 h1{
+    font-family:'Trebuchet MS', sans-serif;
     margin:0;
-    padding: 30px;
-    font-size: 60pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 80pt;
+    color: #F9FAF4;
     text-align: center;
     text-transform: capitalize;
-    background-color: #4A6163;
+    background-color: #0e7a84;
+    opacity: 90%;
     }
-h1 :hover{
-    color: #F17A7E;
-}
+
 h2 {
     color: black;
     font-size: 30pt;
@@ -30,6 +33,18 @@ h2 {
     margin: 0;
     text-align: center;
 }
+
+h3{
+    margin:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 26pt;
+    color: #F9FAF4;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #0e7a84;
+    opacity: 80%;
+    }
 
 p {
     font-size: 18pt;
@@ -39,18 +54,20 @@ p {
 }
 
 .nav-bar {
-    background-color: #F9A66C;
+    /* background-color: #F9A66C; */
+    padding-top: 10px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    opacity: 90%;
 }
 
 .nav-link {
     display: inline-block;
     color: black;
-    font-size: 15pt;
-    padding: 10px 60px 10px 60px;
-    text-transform: uppercase;
+    font-size: 18pt;
+    padding: 10px 100px 10px 100px;
+    /* text-transform: uppercase; */
     text-decoration: none;
 }
 #nav-on-page {
@@ -61,7 +78,8 @@ main {
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    /* height: 100%; */
+    padding-top: 10px;
     padding-bottom: 50px;
     margin-bottom: 50px;
 }
@@ -71,14 +89,13 @@ main {
 .intro {
     padding: 20px;
     line-height: 1.5;
-    width: 400px;
+    width: 600px;
 }
 .photo-div {
     margin: 0;
 }
 .alice-photo {
     width: 350px;
-    margin: 20px;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
 }
 footer {
@@ -88,7 +105,7 @@ footer {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #F17A7E;
+    /* background-color: #F17A7E; */
     width: 100%;
     height: 50px;
     bottom: 0;
