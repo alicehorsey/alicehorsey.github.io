@@ -53,11 +53,11 @@ h2 {
     bottom: 20px;
     width: inherit;
 }
-.devicon-heroku-plain-wordmark, .devicon-github-original-wordmark {
+.devicon-heroku-plain-wordmark, .devicon-github-original-wordmark, .devicon-chrome-plain-wordmark {
     font-size:30pt;
     padding: 5px 20px 5px 20px;
 }
 .youtube-logo {
-    height: 30pt;
-    padding: 5px 20px 5px 20px;
+    height: 30pt; 
+    padding: 0px 20px 0px 20px;
 }
