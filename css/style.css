@@ -7,7 +7,7 @@ body {
     margin: 0;
     height: 100%;
     position: relative;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/compressed-imgs/background.jpg");
 }
 
 a {
@@ -64,7 +64,6 @@ p {
 }
 
 .nav-link {
-    display: inline-block;
     color: black;
     font-size: 18pt;
     padding: 10px 100px 10px 100px;
